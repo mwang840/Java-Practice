@@ -1,5 +1,7 @@
+package src;
+
 public class Troll {
     public static String disemvowel(String str) {
-        return str.replaceAll("(?i)[aeiou]" , "");
+        return str.replaceAll("(?i)[aeiou]", "");
     }
 }
