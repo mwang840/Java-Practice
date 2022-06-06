@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch createPhoneNumber",
+            "request": "launch",
+            "mainClass": "src.createPhoneNumber",
+            "projectName": "Java-Practice_361d3c83"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
