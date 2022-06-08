@@ -2,27 +2,20 @@ package src;
 
 public class Outlier {
     static int find(int[] integers){
-        int len = integers.length;
-        int[] odds = new int[len];
-        int[] evens = new int [len];
+        int odd = 0;
+        int even = 0;
         int val = 0;
-        for(int i = 0; i < integers.length; ++i){
-            if(integers[i] % 2 == 0){
-                evens[i] = integers[i];
+        for(Integer i : integers){
+            if(i % 2 == 0){
+                val++;
+                even = i;
             }
             else{
-                odds[i] = integers[i];
+                odd = i;
             }
         }
 
-        if(evens.length == 1){
-            val = evens[0];
-        }
-        else if(odds.length == 1){
-            val = odds[0];
-        }
-
-        return val;   
+        return (val > 1) ? odd:even;   
     }
 
     public static void main(String[]args){
