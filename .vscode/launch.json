@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Scrambiles",
+            "request": "launch",
+            "mainClass": "src.Scrambiles",
+            "projectName": "Java-Practice_3780c7a6"
+        },
+        {
+            "type": "java",
             "name": "Launch Factorial",
             "request": "launch",
             "mainClass": "src.Factorial",
