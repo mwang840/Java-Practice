@@ -3,10 +3,15 @@ package src;
 public class YsandZs {
     public int countYz(String str){
         int ysnzs = 0;
-        String[] splitter = str.split("\\s+");
-        for(int i = 0; i < splitter.length; ++i){
-            if(splitter[i].endsWith("y") || splitter[i].endsWith("z")){
-                ysnzs++;
+        String lower = str.toLowerCase();
+        for(int i = 0; i < lower.length(); ++i){
+            if(lower.charAt(i) == 'y' || lower.charAt(i) == 'z'){
+                    if(i < lower.length() - 1 && !Character.isLetter(str.charAt(i+1))){
+                        ysnzs++;
+                    }
+                    else if(i == lower.length() - 1){
+                        ysnzs++;
+                    }
             }
         }
         return ysnzs;
