@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch YsandZs",
+            "request": "launch",
+            "mainClass": "src.YsandZs",
+            "projectName": "Java-Practice_361d3c83"
+        },
+        {
+            "type": "java",
             "name": "Launch Scramblies",
             "request": "launch",
             "mainClass": "src.Scramblies",
