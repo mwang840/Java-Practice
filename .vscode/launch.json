@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BitCounting",
+            "request": "launch",
+            "mainClass": "src.BitCounting",
+            "projectName": "Java-Practice_3780c7a6"
+        },
+        {
+            "type": "java",
             "name": "Launch YsandZs",
             "request": "launch",
             "mainClass": "src.YsandZs",
