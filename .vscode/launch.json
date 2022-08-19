@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PascalsTriangle",
+            "request": "launch",
+            "mainClass": "src.PascalsTriangle",
+            "projectName": "Java-Practice_361d3c83"
+        },
+        {
+            "type": "java",
             "name": "Launch BitCounting",
             "request": "launch",
             "mainClass": "src.BitCounting",
