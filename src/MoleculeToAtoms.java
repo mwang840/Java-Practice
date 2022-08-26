@@ -53,6 +53,7 @@ public class MoleculeToAtoms {
 
     public static void main(String[] args) {
         System.out.println(getAtoms("H2O"));
+        System.out.println(getAtoms("Mg(OH)2"));
     }
 }
 
