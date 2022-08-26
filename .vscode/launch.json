@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MoleculeToAtoms",
+            "request": "launch",
+            "mainClass": "src.MoleculeToAtoms",
+            "projectName": "Java-Practice_3780c7a6"
+        },
+        {
+            "type": "java",
             "name": "Launch PascalsTriangle",
             "request": "launch",
             "mainClass": "src.PascalsTriangle",
