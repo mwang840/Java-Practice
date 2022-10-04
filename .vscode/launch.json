@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BitCounting",
+            "request": "launch",
+            "mainClass": "src.BitCounting",
+            "projectName": "Java-Practice_11398dd3"
+        },
+        {
+            "type": "java",
             "name": "Launch MoleculeToAtoms",
             "request": "launch",
             "mainClass": "src.MoleculeToAtoms",
